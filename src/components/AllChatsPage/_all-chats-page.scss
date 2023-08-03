@@ -1,0 +1,67 @@
+.clonegpt-all-chats-page {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+  margin-top: 0 !important;
+  padding: 0 0rem 5rem 0rem !important;
+
+  // position: relative;
+
+  &:hover {
+    border: none !important;
+    background-color: #202123 !important;
+  }
+
+  .clonegpt-chats-elmt {
+    box-shadow: rgba(21, 21, 21, 0.16) 0px 0px 5px 5px;
+    border-bottom: 1px solid #141414d0;
+    padding: 1rem;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .clonegpt-chats-elmt-texts {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+
+      p:last-child {
+        font-size: 12px;
+
+        span {
+          color: #9c40f3;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.clonegpt-add-new-chat-btn {
+  position: absolute;
+  bottom: 6rem;
+  background-color: #9c40f3;
+  border-radius: 10px;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 0.7rem;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    fill: white;
+  }
+
+  p {
+    font-size: 14px;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+      "Liberation Mono", monospace !important;
+    margin: 0;
+  }
+}
